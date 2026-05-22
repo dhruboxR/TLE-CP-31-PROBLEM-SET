@@ -45,7 +45,8 @@ void solve() {
                     For example, let's consider the string s = 00011. 
                     This string is divided into two blocks 000 and 11
                     
-                    So the  number of ways to choose which character stays : len1 * len2 : 3 * 2 = 6
+                    - for the first block we have 3 choices and for the second block we have 2 choices
+                    - So the total number of ways to choose which character stays : len1 * len2 : 3 * 2 = 6
                 */
 
             sequenceOp = (sequenceOp * segment_length) % mod;
