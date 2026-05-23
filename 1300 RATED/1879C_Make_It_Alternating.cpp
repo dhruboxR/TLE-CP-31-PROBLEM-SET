@@ -1,5 +1,6 @@
 // https://codeforces.com/problemset/problem/1879/C
-//    COMBINATORICS // PERMUTATION p(a, b) // order matters
+
+// COMBINATORICS // PERMUTATION p(a, b) // order matters
 
 #include <bits/stdc++.h>
 using namespace std;
